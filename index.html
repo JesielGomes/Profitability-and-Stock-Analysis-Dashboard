@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profitability Dashboard</title>
+    <!-- Tailwind CSS: Framework de estilização para uma UI moderna e responsiva. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Habilita a estratégia de 'class' para o modo escuro do Tailwind CSS.
+      // Isso permite que o tema seja controlado adicionando a classe 'dark' ao elemento <html>,
+      // o que é essencial para que o botão de alternância de tema funcione.
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <!-- html2pdf.js: Biblioteca para converter o conteúdo HTML do dashboard em um arquivo PDF. Essencial para a função de exportação. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Import Map: Permite o uso de importações de módulos ES6 diretamente no navegador, facilitando o gerenciamento de dependências como React sem a necessidade de um bundler complexo. -->
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <!-- O elemento 'root' é o ponto de montagem para a aplicação React. Todo o conteúdo da aplicação será renderizado dentro desta div. -->
+    <div id="root"></div>
+    <!-- Script principal da aplicação React. O 'type="module"' habilita o uso de import/export de ES6. -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

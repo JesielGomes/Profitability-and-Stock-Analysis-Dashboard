@@ -1,0 +1,5 @@
+{
+  "name": "Profitability and Stock Analysis Dashboard",
+  "description": "A single-page application to calculate product profitability and manage stock. It provides real-time analysis of margins, costs, and potential profits, and allows exporting the dashboard as a PDF report.",
+  "requestFramePermissions": []
+}
