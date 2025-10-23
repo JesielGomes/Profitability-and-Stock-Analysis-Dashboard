@@ -1,4 +1,4 @@
-Dashboard de Análise de Rentabilidade e Estoque 📊💰
+Dashboard de Análise de Rentabilidade e Estoque 📊💰//
 Uma ferramenta poderosa e intuitiva, construída em React e Tailwind CSS, para calcular a margem de lucro, gerenciar o estoque e tomar decisões de negócio mais inteligentes.
 Dica: Grave um GIF rápido mostrando a aplicação em ação e substitua o link da imagem acima para impressionar os visitantes!
 ✨ Sobre o Projeto
